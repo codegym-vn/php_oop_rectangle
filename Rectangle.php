@@ -17,13 +17,13 @@ class Rectangle
         $this->height = $height;
     }
 
-    //tinh chu vi
+    //tinh dien tich
     public function getArea()
     {
         return $this->width * $this->height;
     }
 
-    //tinh dien tich
+    //tinh chu vi
     public function getPerimeter()
     {
         return (($this->width + $this->height) * 2);
